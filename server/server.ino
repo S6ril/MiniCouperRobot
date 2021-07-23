@@ -1,12 +1,9 @@
 #include "http_server.h"
 #include "json_interpreter.h"
 
-// A décommenter et inserer vos identifiants
-// const char *ssid = "...";
-// const char *password = "...";
 
-// Ma configuration des identifiants
-#include "credential.h"
+const char *ssid = "...";
+const char *password = "...";
 
 #include "pin_configuration.h"
 Car_Motion car = Car_Motion(gauche_pin, droite_pin, accelerer_pin, reculer_pin);
