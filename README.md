@@ -112,8 +112,6 @@ const char *ssid = "...";
 const char *password = "...";
 ```
 
-La ligne `#include "credential.h"` est à supprimer si vous ne créez pas de fichier avec vos identifiants.
-
 Ce script utilise les librairie suivantes (à installer avec votre Arduino IDE) :
 ```c++
 WiFi
