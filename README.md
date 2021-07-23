@@ -2,16 +2,15 @@
 
 Projet qui permet d'interfacer la voiture bluetooth avec un Esp32 afin de la commander en Wifi avec Python et un joystick.
 
-<center>
+<p align="center">
 <img src="./image/beewi_car.jpg" alt="Beewi" width="50%"> 
-</center>
+</p>
 
 ## Matériel
 
 Pour ce projet, on va utiliser une carte ESP32 qui va remplacer le module bluetooth de la voiture. 
 
-<center>
-
+<p align="center">
 <table>
 	<tbody>
 		<tr>
@@ -24,22 +23,21 @@ Pour ce projet, on va utiliser une carte ESP32 qui va remplacer le module blueto
 		</tr>
 	</tbody>
 </table>
-</center>
+</p>
 On remplace entièrement le module bluetooth par la carte ESP32.
 
 <br>
 <br>
 
-<center>
+<p align="center">
 <img src="./image/BeeWi_interrieur.jpg" alt="ESP32" width="75%"> 
 <br>
 Interrieur de la voiture avec les connectiques.
-
-</center>
+</p>
 
 On retrouve alors la connectique suivante avec les broches sur la voiture :
 
-<center>
+
 <table>
 <tbody>
   <tr>
@@ -70,12 +68,11 @@ On retrouve alors la connectique suivante avec les broches sur la voiture :
   </tr>
 </tbody>
 </table>
-</center>
+
 
 ## Cablage ESP
 On peut maintenant cabler ces broches avec l'ESP32.
 
-<center>
 
 <table>
 <thead>
@@ -104,7 +101,6 @@ On peut maintenant cabler ces broches avec l'ESP32.
 </tbody>
 </table>
 
-</center>
 
 ## Utlisation rapide
 
